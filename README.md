@@ -1,9 +1,9 @@
 <!-- Banner with animated header -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=220&section=header&text=Evgueni%20Nenane&fontSize=52&fontColor=ffffff&fontAlignY=38&animation=fadeIn&desc=Backend-focused%20Software%20Developer&descSize=20&descAlignY=60&descColor=9be7ff" alt="Evgueni Nenane banner" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=200&section=header&text=Evgueni%20Nenane&fontSize=52&fontColor=ffffff&fontAlignY=40&animation=fadeIn&desc=Backend-focused%20Software%20Developer&descSize=20&descAlignY=62&descColor=9be7ff" alt="Evgueni Nenane banner" />
 </p>
 
-<!-- Animated typing line -->
+<!-- Animated typing line (if this shows blank, delete this block) -->
 <p align="center">
   <a href="https://github.com/Evgueni-Nenane">
     <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&duration=3000&pause=1000&color=36BCF7&center=true&vCenter=true&width=640&height=45&lines=Backend+developer+from+Maputo;Java+%26+Spring+Boot+%7C+PHP;I+design+the+system+before+I+code+it;Open+to+freelance+projects" alt="Typing animation" />
@@ -34,35 +34,54 @@ I like to plan a system on paper first (ERD, UML, roadmap) and only then write t
 
 ## 🧰 Tech stack
 
-**Backend and APIs**
+<table align="center">
+  <tr>
+    <td align="center" width="170"><b>Backend &amp; APIs</b></td>
+    <td align="left">
+      <img src="https://skillicons.dev/icons?i=java" width="56" alt="Java" />&nbsp;&nbsp;&nbsp;&nbsp;
+      <img src="https://skillicons.dev/icons?i=spring" width="56" alt="Spring Boot" />&nbsp;&nbsp;&nbsp;&nbsp;
+      <img src="https://skillicons.dev/icons?i=php" width="56" alt="PHP" />&nbsp;&nbsp;&nbsp;&nbsp;
+      <img src="https://skillicons.dev/icons?i=graphql" width="56" alt="GraphQL" />
+    </td>
+  </tr>
+  <tr>
+    <td align="center"><b>Frontend</b></td>
+    <td align="left">
+      <img src="https://skillicons.dev/icons?i=html" width="56" alt="HTML" />&nbsp;&nbsp;&nbsp;&nbsp;
+      <img src="https://skillicons.dev/icons?i=css" width="56" alt="CSS" />&nbsp;&nbsp;&nbsp;&nbsp;
+      <img src="https://skillicons.dev/icons?i=js" width="56" alt="JavaScript" />
+    </td>
+  </tr>
+  <tr>
+    <td align="center"><b>Databases</b></td>
+    <td align="left">
+      <img src="https://skillicons.dev/icons?i=postgres" width="56" alt="PostgreSQL" />&nbsp;&nbsp;&nbsp;&nbsp;
+      <img src="https://skillicons.dev/icons?i=mysql" width="56" alt="MySQL" />&nbsp;&nbsp;&nbsp;&nbsp;
+      <img src="https://skillicons.dev/icons?i=sqlite" width="56" alt="SQLite" />
+    </td>
+  </tr>
+  <tr>
+    <td align="center"><b>Tools</b></td>
+    <td align="left">
+      <img src="https://skillicons.dev/icons?i=git" width="56" alt="Git" />&nbsp;&nbsp;&nbsp;&nbsp;
+      <img src="https://skillicons.dev/icons?i=github" width="56" alt="GitHub" />&nbsp;&nbsp;&nbsp;&nbsp;
+      <img src="https://skillicons.dev/icons?i=linux" width="56" alt="Linux" />&nbsp;&nbsp;&nbsp;&nbsp;
+      <img src="https://skillicons.dev/icons?i=idea" width="56" alt="IntelliJ IDEA" />&nbsp;&nbsp;&nbsp;&nbsp;
+      <img src="https://skillicons.dev/icons?i=vscode" width="56" alt="VS Code" />&nbsp;&nbsp;&nbsp;&nbsp;
+      <img src="https://skillicons.dev/icons?i=electron" width="56" alt="Electron" />
+    </td>
+  </tr>
+  <tr>
+    <td align="center"><b>Design</b></td>
+    <td align="left">
+      <img src="https://skillicons.dev/icons?i=figma" width="56" alt="Figma" />
+    </td>
+  </tr>
+</table>
 
-<p>
-  <img src="https://skillicons.dev/icons?i=java,spring,php,graphql&theme=dark" alt="Backend stack" />
-</p>
-
-**Frontend**
-
-<p>
-  <img src="https://skillicons.dev/icons?i=html,css,js&theme=dark" alt="Frontend stack" />
+<p align="center">
   <img src="https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white" alt="jQuery" />
-</p>
-
-**Databases**
-
-<p>
-  <img src="https://skillicons.dev/icons?i=postgres,mysql,sqlite&theme=dark" alt="Databases" />
-</p>
-
-**Tools and environment**
-
-<p>
-  <img src="https://skillicons.dev/icons?i=git,github,linux,fedora,idea,vscode,electron&theme=dark" alt="Tools" />
-</p>
-
-**Design and planning**
-
-<p>
-  <img src="https://skillicons.dev/icons?i=figma&theme=dark" alt="Figma" />
+  <img src="https://img.shields.io/badge/Fedora-294172?style=for-the-badge&logo=fedora&logoColor=white" alt="Fedora" />
   <img src="https://img.shields.io/badge/brModelo-ERD-444?style=for-the-badge" alt="brModelo" />
   <img src="https://img.shields.io/badge/PlantUML-UML-444?style=for-the-badge" alt="PlantUML" />
   <img src="https://img.shields.io/badge/draw.io-Diagrams-F08705?style=for-the-badge" alt="draw.io" />
@@ -75,12 +94,10 @@ I like to plan a system on paper first (ERD, UML, roadmap) and only then write t
 
 ```mermaid
 flowchart LR
-    A[💡 Understand the problem] --> B[🗃️ Model data - ERD]
-    B --> C[📐 Design flows - UML]
-    C --> D[⚙️ Backend - Java / PHP]
-    D --> E[🖥️ Frontend]
-    E --> F[🧪 Test and review]
-    F --> G[🚀 Deliver]
+    A[💡 Understand<br>the problem] --> B[🗃️ Design<br>ERD and UML]
+    B --> C[⚙️ Build<br>backend]
+    C --> D[🖥️ Build<br>frontend]
+    D --> E[🚀 Test and<br>deliver]
 ```
 
 ---
@@ -90,8 +107,9 @@ flowchart LR
 | Project | What it is | Stack |
 |---|---|---|
 | [**Roulette_Study**](https://github.com/Evgueni-Nenane/Roulette_Study) | Spin a roulette, get a topic and a time limit, then answer inside the system. An AI reviews your answer and gives a score. | `ADD STACK` |
+| [**MusicStreamApp**](https://github.com/Evgueni-Nenane/MusicStreamApp) | Music streaming app built with three colleagues as a school project. | PHP |
+| [**MusicStreamApp_Java**](https://github.com/Evgueni-Nenane/MusicStreamApp_Java) | Java system built as a school project. | Java |
 | [**Portfolio**](https://github.com/Evgueni-Nenane/Portfolio) | My personal portfolio website. | HTML · CSS |
-| [**CompactDiskManagementSystem**](https://github.com/Evgueni-Nenane/CompactDiskManagmentSystem) | System to manage compact disks, built as a school project. | Java |
 
 ---
 
@@ -114,6 +132,7 @@ flowchart LR
 
 ## 📊 GitHub stats
 
+<!-- If the two cards below or the activity graph show as blank or as text, the free service is down: delete that block -->
 <p align="center">
   <img height="170" src="https://github-readme-stats.vercel.app/api?username=Evgueni-Nenane&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub stats" />
   <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Evgueni-Nenane&layout=compact&theme=tokyonight&hide_border=true" alt="Top languages" />
@@ -144,7 +163,7 @@ Send me a message and tell me what you need.
 
 <p align="center">
   <a href="mailto:evgueninenane73@gmail.com"><img src="https://img.shields.io/badge/Email-evgueninenane73@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
-  <a href="https://www.linkedin.com/in/YOUR-LINKEDIN"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="https://www.linkedin.com/in/evgueni-nenane-47610a448"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
 </p>
 
 <p align="center">
