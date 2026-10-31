@@ -1,4 +1,4 @@
-# Hi, I'm [Your Full Name] 👋
+# Hi, I'm Evgueni Nenane 👋
 
 **Backend-focused software developer** based in Maputo, Mozambique.
 I build web systems with Java and PHP, design them properly before coding, and I'm currently open to freelance projects.
