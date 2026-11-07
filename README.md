@@ -1,11 +1,15 @@
-<!-- Banner with animated header -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=200&section=header&text=Evgueni%20Nenane&fontSize=52&fontColor=ffffff&fontAlignY=40&animation=fadeIn&desc=Backend-focused%20Software%20Developer&descSize=20&descAlignY=62&descColor=9be7ff" alt="Evgueni Nenane banner" />
+  <img
+    src="./github-blueprint-banner.gif"
+    alt="Evgueni Nenane — Backend Software Developer"
+    width="100%"
+  />
 </p>
 
 <p align="center">
   <a href="https://github.com/Evgueni-Nenane">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&duration=3000&pause=1000&color=36BCF7&center=true&vCenter=true&width=640&height=45&lines=Backend+developer+from+Maputo;Java+%26+Spring+Boot+%7C+PHP;I+design+the+system+before+I+code+it;Open+to+freelance+projects" alt="Typing animation" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&duration=3000&pause=1000&color=36BCF7&center=true&vCenter=true&width=640&height=45&lines=Backend+developer+from+Maputo;Java+%26+Spring+Boot+%7C+PHP;I+design+the+system+before+I+code+it;Open+to+freelance+projects"
+      alt="Typing animation" />
   </a>
 </p>
 
